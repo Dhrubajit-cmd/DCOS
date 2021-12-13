@@ -1,6 +1,6 @@
-#+TITLE: DTOS
-#+DESCRIPTION: A post-installation script to install DT's xmonad desktop on an Arch-based distro.
-#+AUTHOR: Derek Taylor (DistroTube)
+#+TITLE: DCOS
+#+DESCRIPTION: A post-installation script to install DC's xmonad desktop on an Arch-based distro.
+#+AUTHOR: Dhrubajit Chakravarty (DC)
 #+PROPERTY: header-args :tangle dtos
 #+STARTUP: showeverything
 
@@ -33,7 +33,7 @@
 - [[#set-default-user-shell][Set default USER shell]]
 - [[#message-stating-that-the-installation-is-complete][Message stating that the installation is complete!]]
 
-* About DTOS
+* About DCOS
 #+CAPTION: DCOS Scrot
 #+ATTR_HTML: :alt DCOS scrot :title DCOS Scrot :align left
 [[https://gitlab.com/dwt1/dotfiles/-/raw/master/.screenshots/dtos-thumb-01.png]]
@@ -95,11 +95,7 @@ It would be a good idea to keep a clean installation of an Arch-based distro in 
 
 * Shebang plus comments
 #+begin_src bash :shebang "#!/usr/bin/env bash"
-#  ____ _____ ___  ____
-# |  _ \_   _/ _ \/ ___|   Derek Taylor (DistroTube)
-# | | | || || | | \___ \   http://www.youtube.com/c/DistroTube
-# | |_| || || |_| |___) |  http://www.gitlab.com/dwt1/dtos
-# |____/ |_| \___/|____/
+# Dhrubajit Chakravarty (DC)
 #
 # NAME: DCOS
 # DESC: An installation and deployment script for DC's Xmonad desktop.
