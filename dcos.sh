@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
-#  ____ _____ ___  ____
-# |  _ \_   _/ _ \/ ___|   Derek Taylor (DistroTube)
-# | | | || || | | \___ \   http://www.youtube.com/c/DistroTube
-# | |_| || || |_| |___) |  http://www.gitlab.com/dwt1/dtos
-# |____/ |_| \___/|____/
+# Dhrubajit Chakravarty (DC)
 #
 # NAME: DCOS
 # DESC: An installation and deployment script for DC's Xmonad desktop.
@@ -48,7 +44,7 @@ lastchance || error "User choose to exit."
 
 addrepo() { \
     echo "#########################################################"
-    echo "## Adding the DTOS core repository to /etc/pacman.conf ##"
+    echo "## Adding the DCOS core repository to /etc/pacman.conf ##"
     echo "#########################################################"
     grep -qxF "[dtos-core-repo]" /etc/pacman.conf ||
         (echo "[dtos-core-repo]"; echo "SigLevel = Required DatabaseOptional"; \
